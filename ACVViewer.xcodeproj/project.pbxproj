@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		451F600B151A96E1006F26A2 /* NSImage+CGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 451F6009151A96AF006F26A2 /* NSImage+CGImage.m */; };
+		45354F4915A20D65004C6BDB /* NSColor+CG.m in Sources */ = {isa = PBXBuildFile; fileRef = 45354F4815A20D65004C6BDB /* NSColor+CG.m */; };
+		454766861524D1DC005AC159 /* CACVObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4547667F1524D1DC005AC159 /* CACVObject.m */; };
+		454766871524D1DC005AC159 /* CColorCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 454766811524D1DC005AC159 /* CColorCurve.m */; };
+		454766881524D1DC005AC159 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 454766831524D1DC005AC159 /* CDataScanner.m */; };
+		454766891524D1DC005AC159 /* curve.mm in Sources */ = {isa = PBXBuildFile; fileRef = 454766851524D1DC005AC159 /* curve.mm */; };
+		454767421524EC58005AC159 /* NSValue+CG.m in Sources */ = {isa = PBXBuildFile; fileRef = 454767411524EC58005AC159 /* NSValue+CG.m */; };
+		45991128151923E700A554EC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45991127151923E700A554EC /* Cocoa.framework */; };
+		45991132151923E700A554EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45991130151923E700A554EC /* InfoPlist.strings */; };
+		45991134151923E700A554EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45991133151923E700A554EC /* main.m */; };
+		45991138151923E700A554EC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 45991136151923E700A554EC /* Credits.rtf */; };
+		4599113B151923E700A554EC /* CACVDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4599113A151923E700A554EC /* CACVDocument.m */; };
+		4599113E151923E700A554EC /* CACVDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4599113C151923E700A554EC /* CACVDocument.xib */; };
+		45991141151923E700A554EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4599113F151923E700A554EC /* MainMenu.xib */; };
+		459911491519244300A554EC /* CACVCurvesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 459911481519244300A554EC /* CACVCurvesView.m */; };
+		45B939A8151B93160098AFFF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B939A7151B93160098AFFF /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		451F6008151A96AF006F26A2 /* NSImage+CGImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImage+CGImage.h"; sourceTree = "<group>"; };
+		451F6009151A96AF006F26A2 /* NSImage+CGImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImage+CGImage.m"; sourceTree = "<group>"; };
+		45354F4715A20D65004C6BDB /* NSColor+CG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+CG.h"; sourceTree = "<group>"; };
+		45354F4815A20D65004C6BDB /* NSColor+CG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+CG.m"; sourceTree = "<group>"; };
+		4547667E1524D1DC005AC159 /* CACVObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACVObject.h; sourceTree = "<group>"; };
+		4547667F1524D1DC005AC159 /* CACVObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CACVObject.m; sourceTree = "<group>"; };
+		454766801524D1DC005AC159 /* CColorCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CColorCurve.h; sourceTree = "<group>"; };
+		454766811524D1DC005AC159 /* CColorCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CColorCurve.m; sourceTree = "<group>"; };
+		454766821524D1DC005AC159 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
+		454766831524D1DC005AC159 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
+		454766841524D1DC005AC159 /* curve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve.h; sourceTree = "<group>"; };
+		454766851524D1DC005AC159 /* curve.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = curve.mm; sourceTree = "<group>"; };
+		454767401524EC58005AC159 /* NSValue+CG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+CG.h"; sourceTree = "<group>"; };
+		454767411524EC58005AC159 /* NSValue+CG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+CG.m"; sourceTree = "<group>"; };
+		45991123151923E600A554EC /* ACVViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACVViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45991127151923E700A554EC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4599112A151923E700A554EC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4599112B151923E700A554EC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4599112C151923E700A554EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4599112F151923E700A554EC /* ACVViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACVViewer-Info.plist"; sourceTree = "<group>"; };
+		45991131151923E700A554EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45991133151923E700A554EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45991135151923E700A554EC /* ACVViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACVViewer-Prefix.pch"; sourceTree = "<group>"; };
+		45991137151923E700A554EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		45991139151923E700A554EC /* CACVDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CACVDocument.h; sourceTree = "<group>"; };
+		4599113A151923E700A554EC /* CACVDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CACVDocument.m; sourceTree = "<group>"; };
+		4599113D151923E700A554EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CACVDocument.xib; sourceTree = "<group>"; };
+		45991140151923E700A554EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		459911471519244300A554EC /* CACVCurvesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACVCurvesView.h; sourceTree = "<group>"; };
+		459911481519244300A554EC /* CACVCurvesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CACVCurvesView.m; sourceTree = "<group>"; };
+		45B939A7151B93160098AFFF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45991120151923E600A554EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B939A8151B93160098AFFF /* QuartzCore.framework in Frameworks */,
+				45991128151923E700A554EC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4547667D1524D1DC005AC159 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4547667E1524D1DC005AC159 /* CACVObject.h */,
+				4547667F1524D1DC005AC159 /* CACVObject.m */,
+				454766801524D1DC005AC159 /* CColorCurve.h */,
+				454766811524D1DC005AC159 /* CColorCurve.m */,
+				454766821524D1DC005AC159 /* CDataScanner.h */,
+				454766831524D1DC005AC159 /* CDataScanner.m */,
+				454766841524D1DC005AC159 /* curve.h */,
+				454766851524D1DC005AC159 /* curve.mm */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		45991118151923E600A554EC = {
+			isa = PBXGroup;
+			children = (
+				4547667D1524D1DC005AC159 /* Source */,
+				4599112D151923E700A554EC /* ACVViewer */,
+				45991126151923E700A554EC /* Frameworks */,
+				45991124151923E600A554EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45991124151923E600A554EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45991123151923E600A554EC /* ACVViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45991126151923E700A554EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45B939A7151B93160098AFFF /* QuartzCore.framework */,
+				45991127151923E700A554EC /* Cocoa.framework */,
+				45991129151923E700A554EC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45991129151923E700A554EC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4599112A151923E700A554EC /* AppKit.framework */,
+				4599112B151923E700A554EC /* CoreData.framework */,
+				4599112C151923E700A554EC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4599112D151923E700A554EC /* ACVViewer */ = {
+			isa = PBXGroup;
+			children = (
+				451F6008151A96AF006F26A2 /* NSImage+CGImage.h */,
+				451F6009151A96AF006F26A2 /* NSImage+CGImage.m */,
+				45354F4715A20D65004C6BDB /* NSColor+CG.h */,
+				45354F4815A20D65004C6BDB /* NSColor+CG.m */,
+				45991139151923E700A554EC /* CACVDocument.h */,
+				4599113A151923E700A554EC /* CACVDocument.m */,
+				459911471519244300A554EC /* CACVCurvesView.h */,
+				459911481519244300A554EC /* CACVCurvesView.m */,
+				4599113C151923E700A554EC /* CACVDocument.xib */,
+				4599113F151923E700A554EC /* MainMenu.xib */,
+				454767401524EC58005AC159 /* NSValue+CG.h */,
+				454767411524EC58005AC159 /* NSValue+CG.m */,
+				4599112E151923E700A554EC /* Supporting Files */,
+			);
+			path = ACVViewer;
+			sourceTree = "<group>";
+		};
+		4599112E151923E700A554EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4599112F151923E700A554EC /* ACVViewer-Info.plist */,
+				45991130151923E700A554EC /* InfoPlist.strings */,
+				45991133151923E700A554EC /* main.m */,
+				45991135151923E700A554EC /* ACVViewer-Prefix.pch */,
+				45991136151923E700A554EC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45991122151923E600A554EC /* ACVViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45991144151923E700A554EC /* Build configuration list for PBXNativeTarget "ACVViewer" */;
+			buildPhases = (
+				4599111F151923E600A554EC /* Sources */,
+				45991120151923E600A554EC /* Frameworks */,
+				45991121151923E600A554EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACVViewer;
+			productName = ACVViewer;
+			productReference = 45991123151923E600A554EC /* ACVViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4599111A151923E600A554EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = C;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = toxicsoftware.com;
+			};
+			buildConfigurationList = 4599111D151923E600A554EC /* Build configuration list for PBXProject "ACVViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45991118151923E600A554EC;
+			productRefGroup = 45991124151923E600A554EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45991122151923E600A554EC /* ACVViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45991121151923E600A554EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45991132151923E700A554EC /* InfoPlist.strings in Resources */,
+				45991138151923E700A554EC /* Credits.rtf in Resources */,
+				4599113E151923E700A554EC /* CACVDocument.xib in Resources */,
+				45991141151923E700A554EC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4599111F151923E600A554EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45991134151923E700A554EC /* main.m in Sources */,
+				4599113B151923E700A554EC /* CACVDocument.m in Sources */,
+				459911491519244300A554EC /* CACVCurvesView.m in Sources */,
+				451F600B151A96E1006F26A2 /* NSImage+CGImage.m in Sources */,
+				454766861524D1DC005AC159 /* CACVObject.m in Sources */,
+				454766871524D1DC005AC159 /* CColorCurve.m in Sources */,
+				454766881524D1DC005AC159 /* CDataScanner.m in Sources */,
+				454766891524D1DC005AC159 /* curve.mm in Sources */,
+				454767421524EC58005AC159 /* NSValue+CG.m in Sources */,
+				45354F4915A20D65004C6BDB /* NSColor+CG.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45991130151923E700A554EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45991131151923E700A554EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45991136151923E700A554EC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45991137151923E700A554EC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4599113C151923E700A554EC /* CACVDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4599113D151923E700A554EC /* en */,
+			);
+			name = CACVDocument.xib;
+			sourceTree = "<group>";
+		};
+		4599113F151923E700A554EC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45991140151923E700A554EC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45991142151923E700A554EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		45991143151923E700A554EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		45991145151923E700A554EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACVViewer/ACVViewer-Prefix.pch";
+				INFOPLIST_FILE = "ACVViewer/ACVViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45991146151923E700A554EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACVViewer/ACVViewer-Prefix.pch";
+				INFOPLIST_FILE = "ACVViewer/ACVViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4599111D151923E600A554EC /* Build configuration list for PBXProject "ACVViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45991142151923E700A554EC /* Debug */,
+				45991143151923E700A554EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45991144151923E700A554EC /* Build configuration list for PBXNativeTarget "ACVViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45991145151923E700A554EC /* Debug */,
+				45991146151923E700A554EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4599111A151923E600A554EC /* Project object */;
+}
